@@ -1,9 +1,13 @@
 # Puzzle Challenge
  
-Run in Android:
+Run in android:
   1) yarn install
   2) yarn run android
-Run in Ios:
+
+
+---------------------------------------------------------------------------------
+
+Run in ios:
   1) yarn install
   2) cd ios
   3) pod install

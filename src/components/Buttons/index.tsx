@@ -18,7 +18,7 @@ const Buttons = () => {
   return (
     <View
       style={styles.btnContainer}>
-      <Button title="Previous Block" iterateBlock={iterateBlock} isDisable={currentBlock ===1} currentBlock={currentBlock} />
+      <Button title="Previous Block" iterateBlock={iterateBlock} isDisable={currentBlock ===0} currentBlock={currentBlock} />
       <Button title="Next Block" iterateBlock={iterateBlock} isDisable={currentBlock ===4} currentBlock={currentBlock} goNext />
     </View>
   );

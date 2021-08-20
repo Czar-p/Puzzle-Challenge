@@ -3,7 +3,7 @@ import { ImagesReducer } from './interfaces'
 
 const initialState:ImagesReducer ={
   data:[],
-  currentBlock:1
+  currentBlock:0
 }
 
 const Images = (state=initialState,action:any):ImagesReducer =>{

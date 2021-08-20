@@ -22,12 +22,12 @@ const Main = () => {
     }, [currentBlock]);
   
     
-  
+
     return (
       <SafeAreaView style={{flex: 1, backgroundColor: '#E8E8EB'}}>
         <StatusBar hidden />
-        <Text style={{color: 'black',textAlign:'center',fontSize:28}}>Block {currentBlock}</Text>
-        <Carousel data={data} setListRef={setListRef}/>
+        <Text style={{color: 'black',textAlign:'center',fontSize:28}}>{data.length > 0 && data[currentBlock].title}</Text>
+        <Carousel data={data.length > 0 ?data[currentBlock].images: []} setListRef={setListRef}/>
         <Buttons/>
       </SafeAreaView>
     );

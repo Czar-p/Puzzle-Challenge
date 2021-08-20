@@ -24,7 +24,7 @@ const Carousel =({data=[],setListRef=()=>{}})=>{
             <View
               style={styles.carouselContainer}>
               <Image
-                source={{uri: item.download_url}}
+                source={{uri: item}}
                 style={styles.carouselImage}
               />
             </View>
